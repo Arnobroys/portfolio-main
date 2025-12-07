@@ -9,7 +9,7 @@ body {
     color: #ededed;
     background: #0A1D29;
     background-size: cover;
-
+    
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
     font-weight: 600;
 }
 
-.navbar a {
+.navbar a{
     display: inline-block;
     font-size: 25px;
     color: #fff;
@@ -78,6 +78,15 @@ body {
     font-size: 18px;
     margin-top: 10px;
 }
+
+.home-img img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;  /* for circle */
+    border: 8px solid #0EF2;
+    object-fit: cover;   /* image will fit in  circle*/
+}
+
 .home-sci{
       display: flex;     /* icons side-by-side */
       gap: 15px;         /* space between icons */
